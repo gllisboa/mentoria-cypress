@@ -3,5 +3,11 @@
 
 
 it ("cy.check() - Selecionando Elementos", () => {
-    cy.check()
+
+    cy.visit('index.php?id_category=8&controller=category')
+        .get('#layered_category_9')
+            .check()
+                .uncheck()
+
+
 })
