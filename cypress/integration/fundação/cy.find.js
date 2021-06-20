@@ -1,7 +1,8 @@
 /// <reference types="Cypress" />
 
+//Busca um elemento dentro do escopo do get ou contains anterior
 
 
 it ("cy.find() - Selecionando Elementos", () => {
-    cy.find()
+    cy.get().find()
 })
